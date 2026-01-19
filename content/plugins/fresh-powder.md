@@ -4,6 +4,12 @@ date: 2025-01-18
 description: "Dynamic bitcrusher and lo-fi audio effect plugin"
 tags: ["bitcrusher", "lo-fi", "dynamics", "saturation"]
 weight: 1
+cover:
+  image: "/images/fresh-powder-screenshot.png"
+  alt: "Fresh Powder plugin interface"
+demo_url: "https://doctornfx.github.io/fresh_powder-web/"
+download_url: "https://github.com/doctornfx/fresh_powder/releases"
+github_url: "https://github.com/doctornfx/fresh_powder"
 ---
 
 ## Fresh Powder

@@ -1,0 +1,202 @@
+/* Plugin Grid Layout */
+.plugin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.plugin-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.plugin-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.plugin-card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: var(--code-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plugin-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.plugin-card-content {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.plugin-card-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.plugin-card-title a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.plugin-card-title a:hover {
+  color: var(--secondary);
+}
+
+.plugin-card-description {
+  color: var(--secondary);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.plugin-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.plugin-card-tags .tag {
+  background: var(--code-bg);
+  color: var(--content);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border: 1px solid var(--border);
+}
+
+.plugin-card-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.button-primary {
+  background: var(--primary);
+  color: var(--theme);
+  border-color: var(--primary);
+}
+
+.button-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.button-secondary {
+  background: var(--entry);
+  color: var(--primary);
+  border-color: var(--border);
+}
+
+.button-secondary:hover {
+  background: var(--code-bg);
+  border-color: var(--primary);
+}
+
+/* Home page sections */
+.plugins-section,
+.blog-section {
+  margin: 3rem 0;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Blog section on home page */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-entry {
+  padding: 1.5rem;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.post-entry:hover {
+  transform: translateX(4px);
+}
+
+.post-entry .entry-header h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.post-entry .entry-header h3 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.post-entry .entry-header h3 a:hover {
+  color: var(--secondary);
+}
+
+.post-entry .entry-content p {
+  margin: 0 0 0.5rem 0;
+  color: var(--secondary);
+}
+
+.post-entry .entry-footer {
+  color: var(--secondary);
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .plugin-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .plugin-card-links {
+    flex-direction: column;
+  }
+
+  .button {
+    justify-content: center;
+    width: 100%;
+  }
+}

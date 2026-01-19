@@ -7,6 +7,11 @@ theme = 'PaperMod'
 description = "Free and open source audio plugins"
 author = "Doctor.N FX"
 defaultTheme = "auto"  # auto, light, dark
+
+[params.label]
+text = "Doctor.N FX"
+icon = "/logo.png"  # Path to your logo
+iconHeight = 35  # Adjust height as needed
 ShowReadingTime = true
 ShowShareButtons = false
 ShowPostNavLinks = true
@@ -19,14 +24,6 @@ UseHugoToc = true
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/doctornfx"
-
-[params.homeInfoParams]
-Title = "Doctor.N FX"
-Content = """
-Creating free and open source audio plugins.
-
-Bitcrushers, effects, and creative tools built with Rust.
-"""
 
 [[menu.main]]
 identifier = "plugins"
