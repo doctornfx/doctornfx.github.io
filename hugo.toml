@@ -22,8 +22,20 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
 [[params.socialIcons]]
+name = "bluesky"
+url = "https://bsky.app/profile/doctornfx.bsky.social"
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discord.gg/yourinvite"
+
+[[params.socialIcons]]
 name = "github"
 url = "https://github.com/doctornfx"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:doctorn.fx@gmail.com"
 
 [[menu.main]]
 identifier = "plugins"
