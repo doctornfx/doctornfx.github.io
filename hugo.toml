@@ -1,0 +1,54 @@
+baseURL = 'https://doctornfx.github.io/'
+languageCode = 'en-us'
+title = 'Doctor.N FX'
+theme = 'PaperMod'
+
+[params]
+description = "Free and open source audio plugins"
+author = "Doctor.N FX"
+defaultTheme = "auto"  # auto, light, dark
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/doctornfx"
+
+[params.homeInfoParams]
+Title = "Doctor.N FX"
+Content = """
+Creating free and open source audio plugins.
+
+Bitcrushers, effects, and creative tools built with Rust.
+"""
+
+[[menu.main]]
+identifier = "plugins"
+name = "Plugins"
+url = "/plugins/"
+weight = 10
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 20
+
+[[menu.main]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/doctornfx"
+weight = 30
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
