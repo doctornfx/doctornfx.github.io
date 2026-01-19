@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 layout: "list"
-summary: "Random thoughts on audio, DSP, and plugin development"
+summary: "Random thoughts on audio, biology, software dev, and more"
 ---
 
-Thoughts, tutorials, and notes on audio plugin development, DSP, Rust, and creative coding.
+My two cents on all sorts of topics you may or may not care about.
