@@ -22,6 +22,10 @@ ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
 [[params.socialIcons]]
+name = "kofi"
+url = "https://ko-fi.com/doctornfx"
+
+[[params.socialIcons]]
 name = "bluesky"
 url = "https://bsky.app/profile/doctornfx.bsky.social"
 
