@@ -33,7 +33,7 @@ Fresh Powder combines classic sample rate reduction (downsampling) and bit depth
 
 **[Download Plugin](https://github.com/doctornfx/fresh_powder/releases)** - VST3 and CLAP formats for Windows, macOS, and Linux
 
-**[Source Code](https://github.com/doctornfx/fresh_powder)** - **YOU WILL FIND THE MANUAL HERE!**
+**[Source Code](https://github.com/doctornfx/fresh_powder)** - You will find a manual here too!
 ---
 
 Built with [NIH-plug](https://github.com/robbert-vdh/nih-plug) and [egui](https://github.com/emilk/egui)
